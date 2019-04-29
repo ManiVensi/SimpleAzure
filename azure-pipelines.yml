@@ -1,3 +1,2 @@
-trigger :
- paths:
-   .\SimpleAzure.ps1
+-powershell:
+ filepath:SimpleAzure.ps1
