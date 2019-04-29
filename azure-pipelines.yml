@@ -1,5 +1,6 @@
 steps:
-- powershell: |
-    gcm | measure
-    (gcm).source | sort -unique | measure
-    gmo -list azurerm
+- task: AzurePowerShell@4
+  inputs:
+    ScriptType: 'FilePath'
+    ScriptPath: 'C:\Users\320025003\Desktop\SimleAzure.ps1'
+    TargetAzurePs: 'LatestVersion'
