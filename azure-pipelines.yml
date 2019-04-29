@@ -2,5 +2,5 @@ steps:
 - task: AzurePowerShell@4
   inputs:
     ScriptType: 'FilePath'
-    ScriptPath: 'C:\Users\320025003\Desktop\SimleAzure.ps1'
+    ScriptPath: '.\SimleAzure.ps1'
     TargetAzurePs: 'LatestVersion'
