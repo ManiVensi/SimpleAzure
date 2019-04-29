@@ -1,6 +1,0 @@
-steps:
-- task: PowerShell@2
-  inputs:
-    filePath: 'SimleAzure.ps1'
-    errorActionPreference: 'continue'
-    TargetAzurePs: 'LatestVersion'
