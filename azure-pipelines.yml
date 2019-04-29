@@ -1,2 +1,2 @@
-task: PowerShell@2
+-task: PowerShell@2
  filePath:'.\SimpleAzure.ps1'
