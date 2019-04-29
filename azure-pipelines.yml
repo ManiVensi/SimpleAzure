@@ -1,2 +1,4 @@
--task: PowerShell@2
- filePath:'.\SimpleAzure.ps1'
+# PowerShell
+# Run a PowerShell script on Windows, macOS, or Linux.
+-task : PowerShell
+   Path :'\SimpleAzure.ps1'
