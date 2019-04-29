@@ -1,6 +1,6 @@
 steps:
-- task: AzurePowerShell@4
+- task: PowerShell@2
   inputs:
-    ScriptType: 'FilePath'
-    ScriptPath: 'SimleAzure.ps1'
+    filePath: 'SimleAzure.ps1'
+    errorActionPreference: 'continue'
     TargetAzurePs: 'LatestVersion'
