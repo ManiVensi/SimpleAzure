@@ -1,4 +1,5 @@
-# Azure PowerShell
-# Run a PowerShell script within an Azure environment
--task: AzurePowerShell@4
-  inputs
+steps:
+- powershell: |
+    gcm | measure
+    (gcm).source | sort -unique | measure
+    gmo -list azurerm
