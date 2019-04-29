@@ -16,6 +16,4 @@ steps:
 - script: |
     pwsh -c '.\SimleAzure.ps1'
   displayName: 'Build and Test'
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    
